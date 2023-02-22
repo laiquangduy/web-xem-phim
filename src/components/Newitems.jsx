@@ -35,6 +35,7 @@ const MovieList = () => {
   return (
     <div className="container">
       <div className="row">
+        <div className=''></div>
         {movies.map(movie => (
           <div className="col-md-6" key={movie.id}>
             <div className="card mb-3">

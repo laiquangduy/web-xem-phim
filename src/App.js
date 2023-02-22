@@ -5,6 +5,11 @@ import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import "./App.css";
 import MovieList from "./components/Newitems";
+import Testccol from "./components/Testccol";
+import Signin from "./components/Signin";
+import Signup from "./components/Signup";
+import Partners from "./components/Partners";
+
 
 function App() {
   return (
@@ -16,6 +21,10 @@ function App() {
           </Routes>
           <Slidemovie/>
           <MovieList/>
+          <Testccol/>
+          <Signin/>
+          <Signup/>
+          <Partners/>
           <Footer/>
         
       </Router>
