@@ -10,3 +10,21 @@ a{
 .container{
     border-top: 2px solid #FF5772;
 }
+.icon--gp{
+    width: 120px;
+    height: 40px;
+}
+.footer__social{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer__social li {
+    padding-right: 15px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}

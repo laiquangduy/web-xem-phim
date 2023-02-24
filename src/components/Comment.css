@@ -3,11 +3,19 @@
     display: flex;
     flex-direction: row;
 }
+.nav-item{
+    margin-right: 10px;
+    color:#839490 ;
+}
+.nav-item:hover{
+    color: white;
+}
 .comments__avatar{
     position: absolute;
     top: 0;
     left: 0;
     width: 46px;
+    
     border-radius: 50%;
 }
 .comments__autor{
@@ -31,7 +39,7 @@
     font-family: 'Open Sans', sans-serif;
     border-radius: 4px 4px 0 0;
 }
-.card__cover:before{
+.card__cover::before{
     content: '';
     position: absolute;
     display: block;
@@ -48,8 +56,76 @@
 .card{
     display: flex;
     flex-direction: column;
+    background-color: #2B2B31;
+    
 }
 .card__content{
     display: flex;
     flex-direction: column;
 }
+.card__cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.4s ease;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.card__content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.poster__cover{
+    width: 160px;
+    height: 237px;
+}
+.comments__actions{
+    display: flex;
+    flex-direction: row;
+    
+}
+.comments__rate{
+    
+}
+.comments__like{
+    background-color: #28282d;
+    color: #148A4A;
+    border: none;
+}
+.comments__dislike{
+    background-color: #28282d;
+    color: #932A37;
+    border: none;
+}
+.comments__item--answer{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.comments__response{
+    background-color: #2B2B31;
+    border: none;
+    color: rgba(255,255,255,0.7);
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+/* 
+// X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

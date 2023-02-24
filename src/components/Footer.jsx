@@ -14,7 +14,7 @@ function Footer() {
               />
             </li>
             <li>
-              <img
+              <img className="icon--gp"
                 src='http://flixgo.volkovdesign.com/main/img/google-play-badge.png'
                 alt=''
               />

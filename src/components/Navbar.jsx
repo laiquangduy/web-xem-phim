@@ -41,8 +41,8 @@ function Navbar() {
             <li>PRICING</li>
             <li>HELP</li>
           </ul>
-          <div>
-            <button>
+          <div className="nav-search">
+            <button className="search-icon">
               <i class='fa-solid fa-magnifying-glass'></i>
             </button>
             <Language />
@@ -54,7 +54,7 @@ function Navbar() {
             </Link>
           </div>
         </div>
-        <div className='memu-icon'>
+        <div className='menu-icon'>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
       </nav>

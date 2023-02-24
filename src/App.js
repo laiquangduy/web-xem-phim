@@ -24,7 +24,7 @@ function App() {
                 <Navbar />
                 <Slidemovie />
                 <MovieList />
-                <Testccol />
+                
                 <Partners />
                
                 <Footer />

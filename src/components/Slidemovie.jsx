@@ -48,6 +48,28 @@ function Slidemovie() {
       </div>
     );
   };
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],}
   return (
     <>
       <div className='container'>
@@ -58,11 +80,10 @@ function Slidemovie() {
           </h1>
           
           <Slider
-            dots={false}
-            slidesToShow={3}
-            slidesToScroll={1}
+            {...settings}
             prevArrow={<CustomPrevArrow />}
             nextArrow={<CustomNextArrow />}
+            
           >
             {moviePosters.map((poster) => (
               <div key={poster.id}>
