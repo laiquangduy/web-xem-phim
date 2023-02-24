@@ -47,7 +47,7 @@ function App() {
               </>
             }
           />
-          <Route path='detail' element={<><Navbar /><Detailmovie/><Comment/></>}/>
+          <Route path='detail' element={<><Navbar /><Detailmovie/><Comment/><Footer /></>}/>
         </Routes>
       </Router>
     </>
